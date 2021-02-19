@@ -23,6 +23,8 @@ Currently the library provides two kinds of Honeycomb components:  `Honeycomb`  
 `Honeycomb` component generates a grid with a given number of columns regardless of the available space. It's suitable for the cases when you're sure about how many columns you are going to need or you want to have control over the responsiveness by manipulating the `columns` prop with your own rules.
 
 ```jsx
+import { Honeycomb, Hexagon } from 'react-honeycomb';
+
 <Honeycomb
   columns={5}
   size={SIZE_OF_HEXAGON_SIDE}
@@ -40,6 +42,8 @@ Currently the library provides two kinds of Honeycomb components:  `Honeycomb`  
 `ResponsiveHoneycomb` component tries to fit as many columns as its container allows by attaching a `ResizeObzerver` to the container element (which results in a possible performance overhead). It would suit you if you need to fill all available horizontal space with the list items.
 
 ```jsx
+import { ResponsiveHoneycomb, Hexagon } from 'react-honeycomb';
+
 <ResponsiveHoneycomb
   defaultWidth={1024}
   size={SIZE_OF_HEXAGON_SIDE}
