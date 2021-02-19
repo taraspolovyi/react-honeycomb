@@ -56,6 +56,10 @@ import { ResponsiveHoneycomb, Hexagon } from 'react-honeycomb';
 />
 ```
 
+## Examples
+- [Honeycomb](https://codesandbox.io/s/react-honeycomb-static-example-2xi9g?file=/src/App.js)
+- [ResponsiveHoneycomb](https://codesandbox.io/s/react-honeycomb-responsive-example-dxjq1?file=/src/App.js)
+
 ## Contribution
 The project was initially created just as a quick experiment, so it may have bugs or be missing some features. Don’t be shy to open a pull request if you feel like making it better. If you want to make a significant change, it would be better to open an issue first to discuss the details.
 
