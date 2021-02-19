@@ -18,6 +18,14 @@
   ],
   "main": "lib/index.js",
   "author": "tpolovyi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taraspolovyi/react-honeycomb"
+  },
+  "bugs": {
+    "url": "https://github.com/taraspolovyi/react-honeycomb/issues"
+  },
+  "homepage": "https://github.com/taraspolovyi/react-honeycomb#readme",
   "license": "MIT",
   "dependencies": {
     "resize-observer-polyfill": "^1.5.1"
