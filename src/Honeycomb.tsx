@@ -19,6 +19,7 @@ const Honeycomb = React.forwardRef<HTMLUListElement, StaticHoneycombProps>(
             justifyContent: "center",
             gridAutoRows: `${rowSize}px`,
             padding: `0 ${columnSize}px`,
+            listStyle: "none",
           }}
         >
           {items.map((item, index) => {
