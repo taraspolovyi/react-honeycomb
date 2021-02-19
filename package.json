@@ -1,6 +1,6 @@
 {
   "name": "react-honeycomb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A library for displaying lists as honeycombs with hexagonal cells in React applications",
   "scripts": {
     "prebuild": "rimraf ./lib",
