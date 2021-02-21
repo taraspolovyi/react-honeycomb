@@ -1,7 +1,9 @@
 # react-honeycomb
+
 React Honeycomb is a library for displaying lists as hexagonal honeycombs in React applications.
 
 ## Installation
+
 To install the library using npm run the following command in your terminal:
 
 ```bash
@@ -16,7 +18,7 @@ yarn add react-honeycomb
 
 ## Usage
 
-Currently the library provides two kinds of Honeycomb components:  `Honeycomb`  (a.k.a Static Honeycomb) and `ResponsiveHoneycomb`.
+Currently the library provides two kinds of Honeycomb components: `Honeycomb` (a.k.a Static Honeycomb) and `ResponsiveHoneycomb`.
 
 ### Static Honeycomb
 
@@ -30,11 +32,11 @@ import { Honeycomb, Hexagon } from 'react-honeycomb';
   size={SIZE_OF_HEXAGON_SIDE}
   items={MY_ITEMS}
   renderItem={(item) => (
-    <Hexagon className="awesome-class-name">
-      renderItem(item)
+    <Hexagon className='awesome-class-name'>
+        {renderItem(item)}
     </Hexagon>
   )}
-/>
+/>;
 ```
 
 ### Responsive Honeycomb
@@ -49,17 +51,18 @@ import { ResponsiveHoneycomb, Hexagon } from 'react-honeycomb';
   size={SIZE_OF_HEXAGON_SIDE}
   items={MY_ITEMS}
   renderItem={(item) => (
-    <Hexagon className="awesome-class-name">
-      renderItem(item)
+    <Hexagon className='awesome-class-name'>
+        {renderItem(item)}
     </Hexagon>
   )}
-/>
+/>;
 ```
 
 ## Examples
+
 - [Honeycomb](https://codesandbox.io/s/react-honeycomb-static-example-2xi9g?file=/src/App.js)
 - [ResponsiveHoneycomb](https://codesandbox.io/s/react-honeycomb-responsive-example-dxjq1?file=/src/App.js)
 
 ## Contribution
-The project was initially created just as a quick experiment, so it may have bugs or be missing some features. Don’t be shy to open a pull request if you feel like making it better. If you want to make a significant change, it would be better to open an issue first to discuss the details.
 
+The project was initially created just as a quick experiment, so it may have bugs or be missing some features. Don’t be shy to open a pull request if you feel like making it better. If you want to make a significant change, it would be better to open an issue first to discuss the details.
